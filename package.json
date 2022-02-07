@@ -1,0 +1,34 @@
+{
+  "name": "s3-server",
+  "version": "1.0.0",
+  "description": "servidor de express para cargar archivos a s3.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoZuniga32/s3-server.git"
+  },
+  "keywords": [
+    "s3",
+    "aws",
+    "expressjs",
+    "nodejs"
+  ],
+  "author": "francoZuniga32",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoZuniga32/s3-server/issues"
+  },
+  "homepage": "https://github.com/francoZuniga32/s3-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "multer-s3": "^2.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
