@@ -4,7 +4,8 @@
   "description": "servidor de express para cargar archivos a s3.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,12 @@
   },
   "homepage": "https://github.com/francoZuniga32/s3-server#readme",
   "dependencies": {
+    "aws-sdk": "^2.1070.0",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "multer": "^1.4.4",
     "multer-s3": "^2.10.0"
   },
   "devDependencies": {
